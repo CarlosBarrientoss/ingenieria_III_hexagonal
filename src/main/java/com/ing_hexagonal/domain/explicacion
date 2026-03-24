@@ -1,0 +1,11 @@
+Capa domain – Explicación general
+
+En arquitectura hexagonal, el dominio contiene la lógica de negocio pura, sin depender de frameworks (Spring, JPA, etc.).
+
+Se divide en:
+
+    api (puertos de entrada) → lo que el sistema ofrece
+    spi (puertos de salida) → lo que el sistema necesita
+    model → entidades del negocio
+    usecase → lógica de negocio
+    exception → reglas y errores del dominio
