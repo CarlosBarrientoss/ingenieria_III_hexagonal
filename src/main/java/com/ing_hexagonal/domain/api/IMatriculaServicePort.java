@@ -27,7 +27,6 @@ public interface IMatriculaServicePort {
         Consultar matrículas
         Relacionar estudiante con curso/asignatura
 
-Idea clave:
-Representa los casos de uso del negocio relacionados con matrícula.
+**Representa los casos de uso del negocio relacionados con matrícula.
 *
 *  */
