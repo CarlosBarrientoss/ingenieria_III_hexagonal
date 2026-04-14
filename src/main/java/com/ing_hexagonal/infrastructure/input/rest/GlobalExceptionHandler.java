@@ -6,6 +6,18 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+
+/**
+ * Manejador global de excepciones de la aplicación.
+ /*
+ * Su función es capturar errores producidos durante la ejecución
+ * de los casos de uso o de la infraestructura y transformarlos
+ * en respuestas HTTP claras y controladas para el cliente.
+ /*
+ * En el contexto de seguridad, permite devolver mensajes adecuados
+ * ante problemas de autenticación, autorización o validación.
+ */
+
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 

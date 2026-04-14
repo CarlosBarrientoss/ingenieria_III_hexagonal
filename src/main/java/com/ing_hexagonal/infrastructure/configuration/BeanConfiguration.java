@@ -13,6 +13,18 @@ import com.ing_hexagonal.infrastructure.output.jpa.repository.IMatriculaReposito
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * Clase de configuración encargada de registrar los casos de uso
+ * y ensamblar las dependencias entre puertos y adaptadores.
+ /*
+ * Su función dentro de la arquitectura hexagonal es conectar
+ * el dominio con las implementaciones de infraestructura
+ * sin que el núcleo del sistema dependa de Spring directamente.
+ /*
+ * En el módulo de seguridad, permite instanciar el caso de uso
+ * de autenticación con sus respectivas dependencias.
+ */
+
 @Configuration
 public class BeanConfiguration {
 
